@@ -1,0 +1,35 @@
+body { 
+    background-color: black;
+    color: white;
+    font-family: "Garamond";
+    text-align: center;
+    height: 100vh;
+}
+ul, ol {
+    list-style-position: inside;
+}
+
+.redText {
+    color: red;
+}
+
+.imageMedium {
+    width: 200px;
+    height: 200px;
+}
+
+.boxStyle {
+    padding: 20px;
+    width: 200px;
+    height: auto;
+    margin-inline: auto;
+    border: white;
+    border-width: 10px;
+    background-color: lightpink;
+    color: darkred;
+}
+
+@font-face {
+    font-family: "Garamond";
+    src: url(garamond_[allfont.ru].ttf);
+}
